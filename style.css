@@ -1,0 +1,61 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+
+.container {
+    background-color: whitesmoke;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    width: 500px;
+
+}
+h2{
+    text-align: center;
+    color: black;
+}
+
+.To-Do {
+    padding: 10px;
+    display: flex;
+    border-bottom: 1px solid #ccc;
+}
+
+input{
+    border: none;
+    background: none;
+    width: 100%;
+    font-size: 14px;
+    padding: 10px;
+}
+
+button {
+    border: none;
+    color: rgb(38, 38, 120);
+    background: none;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.task-list {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    border-bottom: 1px solid #eee7e7;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.actions {
+    padding: 10px;
+    text-align: center;
+}
+
